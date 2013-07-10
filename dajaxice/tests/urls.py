@@ -1,4 +1,5 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
+# DeprecationWarning: from django.conf.urls.defaults import *
 
 from dajaxice.core import dajaxice_autodiscover, dajaxice_config
 

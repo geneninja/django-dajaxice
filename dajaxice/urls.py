@@ -1,4 +1,6 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import *
+# DeprecationWarning: from django.conf.urls.defaults import *
+
 from .views import DajaxiceRequest
 
 urlpatterns = patterns('dajaxice.views',
